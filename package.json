@@ -1,38 +1,13 @@
 {
-    "name": "node-red-bluemix-nodes",
-    "version": "1.0.1",
-    "description": "A collection of extra Node-RED nodes for IBM Bluemix.",
+    "name"         : "base64tofile",
+    "version"      : "0.x",
+    "description"  : "A sample node for node-red",
     "dependencies": {
-        "cfenv": "~1.0.0",
-        "mongodb": "~1.4.x",
-        "mqlight": ">=1.0.2014091000",
-        "request": "~2.53.0",
-        "twilio": "~1.6.0",
-        "when": "~3.x"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/node-red/node-red-bluemix-nodes"
-    },
-    "license": "Apache-2.0",
-    "keywords": [
-        "node-red",
-        "bluemix",
-        "io",
-        "tcp",
-        "udp",
-        "mongodb",
-        "twilio",
-        "mqlight"
-    ],
-    "node-red": {
+    "keywords": [ "node-red" ],
+    "node-red"     : {
         "nodes": {
-            "tcp": "io/31-tcpin-cf.js",
-            "udp": "io/32-udp-cf.js",
-            "mqlight": "mqlight/mqlight.js",
-            "mongodb": "mongo/66-mongodb-cf.js",
-            "twilio": "twilio/56-twilio-cf.js",
-            "weather": "weather/weather_insights.js"
+            "base64tofile": "Base64toFile/base64tofile.js"
         }
     }
 }
